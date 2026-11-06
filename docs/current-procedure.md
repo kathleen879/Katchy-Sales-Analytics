@@ -160,19 +160,9 @@ The bottom of the tab shows total revenue across all events.
 **Example:** Payment Type is filled in only for New Beginnings; Profit is empty or 0 in several event tabs; the Expenses tab stores only the year, not the date; some purchases have quantities and unit costs while others only have a total, or put details such as currency and quantity inside the item name.
 **Impact:** analysis over time, by payment method or by unit cost isn't possible. Event days are also stored only as row colours, which formulas can't read.
 
-### Problem 10: Formulas break silently
 
-**What happens:** calculations are copied between tabs by hand.
-**Example:** the Origin Market tab's "Profit + Commission" cell shows a `#REF!` error, and some per-item costs show long unrounded decimals.
-**Impact:** wrong or missing totals can go unnoticed.
-
-### Problem 11: No stock tracking
+### Problem 10: No stock tracking
 
 **What happens:** quantities bought and quantities sold live on different tabs and are never compared.
 **Example:** units given away or kept for marketing are noted only in comments.
 **Impact:** there is no record of how much stock is left, so reprint decisions are made by gut feel.
-
-### Problem 12: Customer details are stored in plain text
-
-**What happens:** the Remarks column often holds customers' names.
-**Impact:** the raw data can't be shared or published without cleaning, which matters for this project's public version.
