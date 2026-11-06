@@ -1,12 +1,11 @@
 # Current Sales Tracking Procedure
-
-This document covers Phase 1 (how Katchy tracks sales and costs today) and Phase 2 (the problems with that approach). All tracking currently happens in a single spreadsheet workbook on Microsoft Excel.
-
+Phase 1 (how Katchy tracks sales and costs today) and Phase 2 (the problems with that approach). 
 > **Privacy note:** customer names, supplier details and exact unit costs are left out of this public version on purpose. Selling prices are included because they are already public at the booth.
 
 ---
 
 ## Part 1: How sales are tracked today
+All tracking currently happens in a single spreadsheet workbook on Microsoft Excel.
 
 ### Sales channels
 
@@ -105,19 +104,19 @@ The bottom of the tab shows total revenue across all events.
 
 ### Problem 1: Sales are recorded as free text, so they cannot be counted automatically
 
-**What happens:** each transaction stores everything bought in one cell, e.g. "4 stickers, 1 print, 2 sticker sheets".
+**Each transaction stores everything bought in one cell, e.g. "4 stickers, 1 print, 2 sticker sheets".** 
 **Example:** to fill in Total Sales, every row of an event tab has to be read and the quantities added up by hand for each product.
 **Impact:** summaries are slow to produce and easy to miscount. Product-level questions (which designs sell best, what is bought together) can't be answered without re-reading every row.
 
 ### Problem 2: The same thing is written in different ways
 
-**What happens:** there are no fixed product names or IDs.
+**There are no fixed product names or IDs.** 
 **Example:** "sticker sheet", "Sticker Sheets" and "3 sticker sheet" all appear; the print promotion is written as both "3 for 6" and "6 for 3".
 **Impact:** any formula or query that groups by product splits one product into several.
 
 ### Problem 3: Event tabs and Total Sales don't agree
 
-**What happens:** each sale is recorded in an event tab and then retyped, as product totals, in Total Sales. The price list is also copied into every event tab.
+**Each sale is recorded in an event tab and then retyped, as product totals, in Total Sales. The price list is also copied into every event tab.** 
 **Example:** only one of the five events has matching totals:
 
 | Event | Event tab total | Total Sales revenue | Difference |
@@ -132,33 +131,27 @@ The bottom of the tab shows total revenue across all events.
 
 ### Problem 5: Summer's profit share is calculated by hand
 
-**What happens:** cat sticker sheets aren't recorded as separate products, so they have to be picked out of the free-text Item and Remarks columns.
+**Cat sticker sheets aren't recorded as separate products, so they have to be picked out of the free-text Item and Remarks columns.** 
 **Example:** some rows say "Summer cats" or name the cats, but others just say "3 sticker sheets". The "to Summer" amount is then worked out per tab.
 **Impact:** it is easy to underpay or overpay Summer, and there is no running total of what she has been paid.
 
 ### Problem 6: Unit costs are fixed numbers that don't follow real purchases
 
-**What happens:** profit uses a single unit cost per product from the price list.
+**Profit uses a single unit cost per product from the price list.** 
 **Example:** the price list keeps one cost for sticker sheets and prints, but the Expenses tab shows later batches cost noticeably less, and the print cost in the price list differs from the Expenses tab.
 **Impact:** profit per event and per product is inaccurate, and the effect of cheaper suppliers or bulk orders can't be measured.
 
 ### Problem 7: Event profit ignores overhead costs
 
-**What happens:** event profit only subtracts the unit cost of items sold.
+**Event profit only subtracts the unit cost of items sold.** 
 **Example:** display items, packaging, tools and delivery fees are in the Expenses tab but never reach Total Sales.
 **Impact:** every event looks profitable, while the business's true overall profit after all expenses is never calculated.
 
 ### Problem 8: Costs can't be linked to the products they were for
 
-**What happens:** Expenses rows describe purchases, but nothing connects them to what was sold.
+**Expenses rows describe purchases, but nothing connects them to what was sold.** 
 **Example:** many small bead and charm purchases are logged as "Product", with no link to which finished product they went into.
 **Impact:** the true cost and profit of a specific product line is unknown.
-
-### Problem 9: Fields are missing or filled in inconsistently
-
-**What happens:** columns are used differently from tab to tab.
-**Example:** Payment Type is filled in only for New Beginnings; Profit is empty or 0 in several event tabs; the Expenses tab stores only the year, not the date; some purchases have quantities and unit costs while others only have a total, or put details such as currency and quantity inside the item name.
-**Impact:** analysis over time, by payment method or by unit cost isn't possible. Event days are also stored only as row colours, which formulas can't read.
 
 
 ### Problem 10: No stock tracking
