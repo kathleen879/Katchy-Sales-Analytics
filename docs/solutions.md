@@ -9,7 +9,7 @@ The core idea behind every solution is the same: **record each fact once, in a s
 | 1 | Sales recorded as free text | One row per product per sale, with the promotion price applied | `orders`, `order_items` tables |
 | 2 | Same thing written different ways | Fixed product list with IDs | `products`, `promotions` tables, dropdowns |
 | 3 | Event tabs and Total Sales don't agree | Summaries calculated by queries, not retyped | SQL views |
-| 4 | Summer's share calculated by hand | Cat designs tagged, share calculated automatically | `partners` table, payout query |
+| 4 | Partner's share calculated by hand | Cat designs tagged, share calculated automatically | `partners` table, payout query |
 | 5 | Fixed unit costs | Weighted average cost from real purchases | `product_costs` table, average-cost query |
 | 6 | Costs not linked to products | Purchases linked to the product they were for | `product_id` on expenses |
 | 7 | No stock tracking | Stock calculated from purchases and sales | `stock_movements` table |
