@@ -1,5 +1,5 @@
 # Current Sales Tracking Procedure
-Phase 1 (how Katchy tracks sales and costs today) and Phase 2 (the problems with that approach). 
+This document covers Phase 1 (how Katchy tracks sales and costs today) and Phase 2 (the problems with that approach). 
 > **Privacy note:** customer names, supplier details and exact unit costs are left out of this public version on purpose. Selling prices are included because they are already public at the booth.
 
 ---
@@ -129,33 +129,33 @@ The bottom of the tab shows total revenue across all events.
 
 **Impact:** there is no single source of truth, so it's unclear which revenue figure is correct.
 
-### Problem 5: Summer's profit share is calculated by hand
+### Problem 4: Partner's profit share is calculated by hand
 
 **Cat sticker sheets aren't recorded as separate products, so they have to be picked out of the free-text Item and Remarks columns.** 
-**Example:** some rows say "Summer cats" or name the cats, but others just say "3 sticker sheets". The "to Summer" amount is then worked out per tab.
-**Impact:** it is easy to underpay or overpay Summer, and there is no running total of what she has been paid.
+**Example:** some rows name the cats, but others just say "3 sticker sheets". The amount is then worked out per tab.
+**Impact:** it is easy to underpay or overpay my partner, and there is no running total of what she has been paid.
 
-### Problem 6: Unit costs are fixed numbers that don't follow real purchases
+### Problem 5: Unit costs are fixed numbers that don't follow real purchases
 
 **Profit uses a single unit cost per product from the price list.** 
 **Example:** the price list keeps one cost for sticker sheets and prints, but the Expenses tab shows later batches cost noticeably less, and the print cost in the price list differs from the Expenses tab.
 **Impact:** profit per event and per product is inaccurate, and the effect of cheaper suppliers or bulk orders can't be measured.
 
-### Problem 7: Event profit ignores overhead costs
+### Problem 6: Event profit ignores overhead costs
 
 **Event profit only subtracts the unit cost of items sold.** 
 **Example:** display items, packaging, tools and delivery fees are in the Expenses tab but never reach Total Sales.
 **Impact:** every event looks profitable, while the business's true overall profit after all expenses is never calculated.
 
-### Problem 8: Costs can't be linked to the products they were for
+### Problem 7: Costs can't be linked to the products they were for
 
 **Expenses rows describe purchases, but nothing connects them to what was sold.** 
 **Example:** many small bead and charm purchases are logged as "Product", with no link to which finished product they went into.
 **Impact:** the true cost and profit of a specific product line is unknown.
 
 
-### Problem 10: No stock tracking
+### Problem 8: No stock tracking
 
-**What happens:** quantities bought and quantities sold live on different tabs and are never compared.
+**Quantities bought and quantities sold live on different tabs and are never compared.** 
 **Example:** units given away or kept for marketing are noted only in comments.
 **Impact:** there is no record of how much stock is left, so reprint decisions are made by gut feel.
