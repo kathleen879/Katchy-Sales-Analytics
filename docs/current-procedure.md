@@ -141,13 +141,7 @@ The bottom of the tab shows total revenue across all events.
 **Example:** the price list keeps one cost for sticker sheets and prints, but the Expenses tab shows later batches cost noticeably less, and the print cost in the price list differs from the Expenses tab.
 **Impact:** profit per event and per product is inaccurate, and the effect of cheaper suppliers or bulk orders can't be measured.
 
-### Problem 6: Event profit ignores overhead costs
-
-**Event profit only subtracts the unit cost of items sold.** 
-**Example:** display items, packaging, tools and delivery fees are in the Expenses tab but never reach Total Sales.
-**Impact:** every event looks profitable, while the business's true overall profit after all expenses is never calculated.
-
-### Problem 7: Costs can't be linked to the products they were for
+### Problem 6: Costs can't be linked to the products they were for
 
 **Expenses rows describe purchases, but nothing connects them to what was sold.** 
 **Example:** many small bead and charm purchases are logged as "Product", with no link to which finished product they went into.
