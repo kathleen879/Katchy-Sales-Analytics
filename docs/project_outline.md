@@ -95,6 +95,7 @@ The real database stays private on your machine; the public demo runs on a pertu
 - Run the analysis on both versions and confirm the conclusions match
 - State clearly in the public write-up that values are altered
 
+Phase 6 is moved to after the app is built.
 ## Phase 7: Building the web app in stages
 
 Build a small working version first, then add features. Each stage ends with something that runs.
